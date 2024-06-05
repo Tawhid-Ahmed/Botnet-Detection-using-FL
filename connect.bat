@@ -1,0 +1,1 @@
+docker exec -it fl-server-container /bin/bash

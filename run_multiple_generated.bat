@@ -1,0 +1,3 @@
+start "C1" docker run --rm --name=fl-server-container1 -v "D:\BUET\2023-04\Distributed Systems\Project\Codes\ProjectTest\dataset":/app/dataset -e low=991 -e top=1126 -e count=500 -e client_id=1 -e dataset_num=8 -e epochs=1 -e batch_size=1 fl-server
+start "C2" docker run --rm --name=fl-server-container2 -v "D:\BUET\2023-04\Distributed Systems\Project\Codes\ProjectTest\dataset":/app/dataset -e low=288 -e top=1319 -e count=500 -e client_id=2 -e dataset_num=2 -e epochs=1 -e batch_size=1 fl-server
+start "C3" docker run --rm --name=fl-server-container3 -v "D:\BUET\2023-04\Distributed Systems\Project\Codes\ProjectTest\dataset":/app/dataset -e low=45 -e top=1393 -e count=500 -e client_id=3 -e dataset_num=6 -e epochs=1 -e batch_size=1 fl-server

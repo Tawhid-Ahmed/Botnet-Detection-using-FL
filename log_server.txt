@@ -1,0 +1,664 @@
+myFlowerExperiment | INFO flwr 2023-10-11 22:09:49,782 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-11 22:09:49,830 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-11 22:09:49,830 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-11 22:09:49,830 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-11 22:23:19,052 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-11 22:23:19,053 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-11 22:23:19,054 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:23:37,792 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:25:42,839 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-11 22:25:42,925 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:25:42,925 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:25:46,289 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-11 22:25:46,289 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:25:46,290 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:26:23,784 | server.py:232 | fit_round 2 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-11 22:29:30,081 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-11 22:29:30,097 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-11 22:29:30,097 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-11 22:29:30,097 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-11 22:29:46,213 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-11 22:29:46,213 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-11 22:29:46,214 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:29:58,453 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:30:24,195 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-11 22:30:24,231 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:30:24,231 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:30:25,811 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-11 22:31:24,268 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-11 22:31:24,268 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-11 22:31:24,268 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-11 22:31:24,268 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-11 22:44:42,240 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-11 22:44:42,240 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-11 22:44:42,240 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:44:46,619 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:45:12,465 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-11 22:45:12,548 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:45:12,548 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:45:14,292 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:47:36,733 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:48:03,413 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:48:03,459 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:48:05,198 | server.py:182 | evaluate_round 2 received 0 results and 3 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:49:04,895 | server.py:218 | fit_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:49:50,167 | server.py:232 | fit_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:49:50,185 | server.py:168 | evaluate_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:49:53,148 | server.py:182 | evaluate_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:49:53,149 | server.py:218 | fit_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:50:34,215 | server.py:232 | fit_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:50:34,255 | server.py:168 | evaluate_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:50:36,717 | server.py:182 | evaluate_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:50:36,718 | server.py:218 | fit_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:50:58,928 | server.py:232 | fit_round 5 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:50:58,990 | server.py:168 | evaluate_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:51:01,535 | server.py:182 | evaluate_round 5 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-11 22:51:01,535 | server.py:147 | FL finished in 379.2947764999999
+myFlowerExperiment | INFO flwr 2023-10-11 22:51:01,536 | app.py:218 | app_fit: losses_distributed [(3, 0.4220951000849406), (4, 0.3298211296399434), (5, 0.29037047425905865)]
+myFlowerExperiment | INFO flwr 2023-10-11 22:51:01,537 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-11 22:51:01,537 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-11 22:51:01,538 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-11 22:51:01,538 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-11 22:52:00,306 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-11 22:52:00,306 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-11 22:52:00,306 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-11 22:52:00,306 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-11 22:52:05,329 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-11 22:52:05,329 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-11 22:52:05,329 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:52:10,335 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:52:36,621 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-11 22:52:36,713 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:52:36,713 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:52:40,051 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-11 22:52:40,052 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:52:40,052 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:53:03,654 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:53:03,697 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:53:06,249 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:53:06,250 | server.py:218 | fit_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:53:47,337 | server.py:232 | fit_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:53:47,386 | server.py:168 | evaluate_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:53:49,603 | server.py:182 | evaluate_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:53:49,604 | server.py:218 | fit_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:54:10,809 | server.py:232 | fit_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:54:10,908 | server.py:168 | evaluate_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:54:13,480 | server.py:182 | evaluate_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:54:13,480 | server.py:218 | fit_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:54:37,646 | server.py:232 | fit_round 5 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:54:37,709 | server.py:168 | evaluate_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-11 22:54:40,270 | server.py:182 | evaluate_round 5 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-11 22:54:40,270 | server.py:147 | FL finished in 154.9404963
+myFlowerExperiment | INFO flwr 2023-10-11 22:54:40,272 | app.py:218 | app_fit: losses_distributed [(1, 0.43867040673891705), (2, 0.328864852587382), (3, 0.2776153435309728), (4, 0.2611631155014038), (5, 0.2465544988711675)]
+myFlowerExperiment | INFO flwr 2023-10-11 22:54:40,272 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-11 22:54:40,273 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-11 22:54:40,274 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-11 22:54:40,274 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-12 13:03:08,276 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 13:03:08,305 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 13:03:08,306 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 13:03:08,306 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 13:03:48,944 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 13:03:48,945 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 13:03:48,945 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:04:04,588 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:04:36,642 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 13:04:36,684 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:04:36,684 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:04:40,222 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 13:04:40,222 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:04:40,224 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:05:08,704 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:05:08,744 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:05:12,289 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:05:12,289 | server.py:218 | fit_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:05:41,863 | server.py:232 | fit_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:05:41,905 | server.py:168 | evaluate_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:05:45,307 | server.py:182 | evaluate_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:05:45,308 | server.py:218 | fit_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:06:14,203 | server.py:232 | fit_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:06:14,240 | server.py:168 | evaluate_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:06:17,650 | server.py:182 | evaluate_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:06:17,651 | server.py:218 | fit_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:06:47,289 | server.py:232 | fit_round 5 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:06:47,332 | server.py:168 | evaluate_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:06:52,146 | server.py:182 | evaluate_round 5 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-12 13:06:52,147 | server.py:147 | FL finished in 183.2019406
+myFlowerExperiment | INFO flwr 2023-10-12 13:06:52,148 | app.py:218 | app_fit: losses_distributed [(1, 0.4170190095901489), (2, 0.3199797769387563), (3, 0.28628648817539215), (4, 0.26477045317490894), (5, 0.2630530347426732)]
+myFlowerExperiment | INFO flwr 2023-10-12 13:06:52,148 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-12 13:06:52,148 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-12 13:06:52,148 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-12 13:06:52,148 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-12 13:10:54,346 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 13:10:54,353 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 13:10:54,353 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 13:10:54,353 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 13:11:03,404 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 13:11:03,404 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 13:11:03,404 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:11:08,576 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:11:35,197 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 13:11:35,233 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:11:35,233 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:12:13,180 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-12 13:13:15,914 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 13:13:15,923 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 13:13:15,923 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 13:13:15,923 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 13:13:29,517 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 13:13:29,517 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 13:13:29,517 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:13:34,329 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:14:20,073 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 13:14:20,104 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:14:20,104 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 13:35:30,148 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-12 13:35:55,881 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 13:35:55,905 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 13:35:55,905 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 13:35:55,905 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 14:29:53,432 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 14:29:53,470 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 14:29:53,471 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 14:29:53,471 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 14:30:01,790 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 14:30:01,814 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 14:30:01,814 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 14:30:01,815 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 14:30:43,804 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 14:30:43,804 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 14:30:43,805 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:30:45,507 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:31:14,401 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 14:31:14,434 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:31:14,434 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:32:15,279 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:32:59,820 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:33:34,199 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:33:34,245 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:35:23,254 | server.py:182 | evaluate_round 2 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-12 14:37:37,230 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 14:37:37,254 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 14:37:37,254 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 14:37:37,254 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 14:37:44,972 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 14:37:44,972 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 14:37:44,972 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:37:51,440 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:38:22,360 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 14:38:22,403 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:38:22,403 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:39:40,563 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:40:53,371 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:41:21,704 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:41:21,736 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:41:32,384 | server.py:182 | evaluate_round 2 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-12 14:42:35,568 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 14:42:35,573 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 14:42:35,573 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 14:42:35,574 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 14:42:52,982 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 14:42:52,982 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 14:42:52,982 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:42:59,200 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:43:31,191 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 14:43:31,221 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:43:31,221 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:43:34,843 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 14:43:34,843 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:43:34,843 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:44:01,045 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:44:01,074 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:44:03,766 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:44:03,766 | server.py:218 | fit_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:44:44,863 | server.py:232 | fit_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:44:44,893 | server.py:168 | evaluate_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:44:47,456 | server.py:182 | evaluate_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:44:47,456 | server.py:218 | fit_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:45:10,475 | server.py:232 | fit_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:45:10,527 | server.py:168 | evaluate_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:45:13,177 | server.py:182 | evaluate_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:45:13,177 | server.py:218 | fit_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:45:40,108 | server.py:232 | fit_round 5 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:45:40,148 | server.py:168 | evaluate_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 14:45:42,832 | server.py:182 | evaluate_round 5 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-12 14:45:42,832 | server.py:147 | FL finished in 169.8501544
+myFlowerExperiment | INFO flwr 2023-10-12 14:45:42,833 | app.py:218 | app_fit: losses_distributed [(1, 0.4103523890177409), (2, 0.31721871097882587), (3, 0.2840166489283244), (4, 0.2630152255296707), (5, 0.2501748949289322)]
+myFlowerExperiment | INFO flwr 2023-10-12 14:45:42,833 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-12 14:45:42,833 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-12 14:45:42,833 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-12 14:45:42,833 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-12 15:00:18,625 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 15:00:18,632 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 15:00:18,632 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:00:18,632 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:00:26,745 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:00:26,745 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:00:26,745 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:00:32,118 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:00:59,308 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 15:00:59,337 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:00:59,337 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:03:48,125 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-12 15:05:11,929 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 15:05:11,954 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 15:05:11,955 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:05:11,955 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:05:16,085 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:05:16,085 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:05:16,085 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:05:20,954 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:06,290 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 15:06:06,319 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:06,320 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:09,308 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 15:06:09,309 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:09,309 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:31,913 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:31,960 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:34,627 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:34,628 | server.py:218 | fit_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:58,450 | server.py:232 | fit_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:06:58,476 | server.py:168 | evaluate_round 3: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:01,044 | server.py:182 | evaluate_round 3 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:01,045 | server.py:218 | fit_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:26,263 | server.py:232 | fit_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:26,290 | server.py:168 | evaluate_round 4: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:28,953 | server.py:182 | evaluate_round 4 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:28,953 | server.py:218 | fit_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:53,268 | server.py:232 | fit_round 5 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:53,309 | server.py:168 | evaluate_round 5: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:07:55,984 | server.py:182 | evaluate_round 5 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-12 15:07:55,984 | server.py:147 | FL finished in 159.8988891
+myFlowerExperiment | INFO flwr 2023-10-12 15:07:55,984 | app.py:218 | app_fit: losses_distributed [(1, 0.4219520290692647), (2, 0.3259163995583852), (3, 0.28500158588091534), (4, 0.26860809326171875), (5, 0.2537144124507904)]
+myFlowerExperiment | INFO flwr 2023-10-12 15:07:55,984 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-12 15:07:55,984 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-12 15:07:55,984 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-12 15:07:55,984 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-12 15:09:28,459 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 15:09:28,465 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 15:09:28,465 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:09:28,465 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:09:39,818 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:09:39,819 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:09:39,819 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:09:45,196 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:10:12,232 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 15:10:12,261 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:10:12,262 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:10:15,631 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-12 15:10:53,725 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 15:10:53,749 | app.py:168 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 15:10:53,749 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:10:53,749 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:11:06,794 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:11:06,794 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:11:06,794 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:11:11,551 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:11:56,884 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 15:11:56,911 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:11:56,911 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:12:16,739 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-12 15:13:11,739 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-12 15:13:11,747 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-12 15:13:11,747 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:13:11,747 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:13:15,454 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-12 15:13:15,454 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-12 15:13:15,454 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:13:21,198 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:14:07,510 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 15:14:07,542 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:14:07,542 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:14:10,890 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-12 15:14:10,890 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:14:10,890 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:14:37,556 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:14:37,585 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-12 15:14:40,930 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-12 15:14:40,931 | server.py:147 | FL finished in 85.47637040000001
+myFlowerExperiment | INFO flwr 2023-10-12 15:14:40,931 | app.py:218 | app_fit: losses_distributed [(1, 0.410167117913564), (2, 0.3172950545946757)]
+myFlowerExperiment | INFO flwr 2023-10-12 15:14:40,931 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-12 15:14:40,931 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-12 15:14:40,931 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-12 15:14:40,931 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-13 22:18:02,705 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-13 22:18:02,726 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-13 22:18:02,727 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-13 22:18:02,727 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-13 22:18:21,463 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-13 22:18:21,463 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-13 22:18:21,463 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-13 22:18:21,463 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 22:19:07,574 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-13 22:19:07,606 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-13 22:19:07,606 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 22:19:11,043 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | DEBUG flwr 2023-10-13 22:20:24,151 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 22:20:55,745 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-13 22:20:55,781 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 22:20:59,685 | server.py:182 | evaluate_round 2 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-13 22:20:59,685 | server.py:147 | FL finished in 158.22227139999998
+myFlowerExperiment | INFO flwr 2023-10-13 22:20:59,686 | app.py:218 | app_fit: losses_distributed []
+myFlowerExperiment | INFO flwr 2023-10-13 22:20:59,686 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-13 22:20:59,686 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-13 22:20:59,686 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-13 22:20:59,686 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-13 23:44:39,945 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-13 23:44:39,963 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-13 23:44:39,963 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-13 23:44:39,963 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-13 23:45:15,194 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-13 23:45:15,195 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-13 23:45:15,195 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:45:28,931 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:45:57,578 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-13 23:45:57,662 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:45:57,662 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:46:01,087 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:51:39,570 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:52:15,712 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:52:15,782 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:52:21,035 | server.py:182 | evaluate_round 2 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-13 23:52:21,035 | server.py:147 | FL finished in 425.8405295
+myFlowerExperiment | INFO flwr 2023-10-13 23:52:21,036 | app.py:218 | app_fit: losses_distributed []
+myFlowerExperiment | INFO flwr 2023-10-13 23:52:21,036 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-13 23:52:21,036 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-13 23:52:21,036 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-13 23:52:21,036 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-13 23:55:12,223 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-13 23:55:12,246 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-13 23:55:12,247 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-13 23:55:12,247 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-13 23:55:19,884 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-13 23:55:19,885 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-13 23:55:19,885 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:55:24,521 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:55:56,075 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-13 23:55:56,162 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:55:56,163 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:56:01,092 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-13 23:58:40,013 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-13 23:58:40,040 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-13 23:58:40,040 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-13 23:58:40,040 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-13 23:58:53,612 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-13 23:58:53,613 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-13 23:58:53,613 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:58:58,497 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:59:32,780 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-13 23:59:32,819 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:59:32,819 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-13 23:59:37,744 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-14 00:03:09,924 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-14 00:03:09,932 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-14 00:03:09,932 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-14 00:03:09,932 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-14 00:03:22,749 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-14 00:03:22,749 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-14 00:03:22,749 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:03:27,179 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:04:01,298 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-14 00:04:01,344 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:04:01,345 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:04:06,711 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | INFO flwr 2023-10-14 00:04:54,377 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-14 00:04:54,403 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-14 00:04:54,403 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-14 00:04:54,403 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-14 00:06:07,924 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-14 00:06:07,925 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-14 00:06:07,925 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:06:11,476 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:06:43,989 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-14 00:06:44,019 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:06:44,020 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:06:47,825 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-14 00:06:47,826 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:06:47,827 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:07:15,781 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:07:15,822 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:07:20,032 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-14 00:07:20,032 | server.py:147 | FL finished in 72.1076368
+myFlowerExperiment | INFO flwr 2023-10-14 00:07:20,033 | app.py:218 | app_fit: losses_distributed [(1, 0.38672369718551636), (2, 0.29992640515168506)]
+myFlowerExperiment | INFO flwr 2023-10-14 00:07:20,033 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-14 00:07:20,033 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-14 00:07:20,033 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-14 00:07:20,033 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-14 00:09:20,456 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-14 00:09:20,467 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-14 00:09:20,467 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-14 00:09:20,467 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-14 00:15:33,779 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-14 00:15:33,779 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-14 00:15:33,779 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:15:38,388 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:16:06,813 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-14 00:16:06,866 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:16:06,867 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:16:10,661 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-14 00:16:10,661 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:16:10,662 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:16:38,481 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:16:38,514 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:16:42,590 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-14 00:16:42,591 | server.py:147 | FL finished in 68.81138449999997
+myFlowerExperiment | INFO flwr 2023-10-14 00:16:42,591 | app.py:218 | app_fit: losses_distributed [(1, 0.4100428322950999), (2, 0.3198427160580953)]
+myFlowerExperiment | INFO flwr 2023-10-14 00:16:42,591 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-14 00:16:42,591 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-14 00:16:42,591 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-14 00:16:42,591 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-14 00:19:07,311 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-14 00:19:07,320 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-14 00:19:07,320 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-14 00:19:07,320 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-14 00:19:15,240 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-14 00:19:15,241 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-14 00:19:15,241 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:19:18,947 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:19:49,626 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-14 00:19:49,662 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:19:49,662 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:19:53,217 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-14 00:19:53,217 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:19:53,218 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:20:19,068 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:20:19,096 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-14 00:20:21,686 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-14 00:20:21,686 | server.py:147 | FL finished in 66.4451835
+myFlowerExperiment | INFO flwr 2023-10-14 00:20:21,686 | app.py:218 | app_fit: losses_distributed [(1, 0.40592466791470844), (2, 0.32057736317316693)]
+myFlowerExperiment | INFO flwr 2023-10-14 00:20:21,686 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-14 00:20:21,686 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-14 00:20:21,686 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-14 00:20:21,686 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-15 10:21:13,368 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-15 10:21:13,399 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-15 10:21:13,399 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-15 10:21:13,399 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 10:25:50,848 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 10:25:50,848 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-15 10:25:50,848 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:25:56,025 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:26:08,856 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 10:26:08,865 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:26:08,865 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:26:09,130 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 10:26:09,130 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:26:09,130 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:26:21,367 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:26:21,375 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:26:21,528 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-15 10:26:21,528 | server.py:147 | FL finished in 30.67975039999999
+myFlowerExperiment | INFO flwr 2023-10-15 10:26:21,529 | app.py:218 | app_fit: losses_distributed [(1, 2.1286586125691733), (2, 1.1150083144505818)]
+myFlowerExperiment | INFO flwr 2023-10-15 10:26:21,529 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-15 10:26:21,529 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-15 10:26:21,530 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-15 10:26:21,530 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:04,634 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:04,648 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:04,648 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:04,648 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:13,029 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:13,030 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:13,030 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:34:18,127 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:34:39,431 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 10:34:39,437 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:34:39,437 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:34:40,121 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 10:34:40,121 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:34:40,121 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:34:52,496 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:34:52,502 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 10:34:52,869 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:52,869 | server.py:147 | FL finished in 39.839236799999995
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:52,869 | app.py:218 | app_fit: losses_distributed [(1, 2.005224426587423), (2, 0.7638482252756754)]
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:52,869 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:52,869 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:52,869 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-15 10:34:52,869 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-15 11:23:24,040 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-15 11:23:24,056 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-15 11:23:24,056 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-15 11:23:24,056 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 11:24:46,901 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 11:24:46,901 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-15 11:24:46,901 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:26:58,871 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | INFO flwr 2023-10-15 11:29:58,207 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-15 11:29:58,207 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-15 11:29:58,207 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-15 11:29:58,207 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 11:30:22,811 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 11:30:22,812 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-15 11:30:22,812 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:30:39,513 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:30:46,489 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 11:30:46,497 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:30:46,498 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:30:47,289 | server.py:182 | evaluate_round 1 received 0 results and 3 failures
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:32:47,745 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:32:54,560 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:32:54,566 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:32:55,442 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-15 11:32:55,442 | server.py:147 | FL finished in 152.6303444
+myFlowerExperiment | INFO flwr 2023-10-15 11:32:55,443 | app.py:218 | app_fit: losses_distributed [(2, 1.43046036362648)]
+myFlowerExperiment | INFO flwr 2023-10-15 11:32:55,443 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-15 11:32:55,443 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-15 11:32:55,443 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-15 11:32:55,443 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-15 11:35:21,881 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-15 11:35:21,898 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-15 11:35:21,898 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-15 11:35:21,898 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 11:35:41,754 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 11:35:41,754 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-15 11:35:41,754 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:35:49,197 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:35:55,902 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 11:35:55,908 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:35:55,908 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:35:56,725 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 11:35:56,726 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:35:56,726 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:36:02,858 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:36:02,864 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 11:36:03,442 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-15 11:36:03,442 | server.py:147 | FL finished in 21.687267900000002
+myFlowerExperiment | INFO flwr 2023-10-15 11:36:03,442 | app.py:218 | app_fit: losses_distributed [(1, 1.529166539510091), (2, 1.1658697724342346)]
+myFlowerExperiment | INFO flwr 2023-10-15 11:36:03,442 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-15 11:36:03,442 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-15 11:36:03,443 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-15 11:36:03,443 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-15 12:00:27,941 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-15 12:00:27,941 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-15 12:00:27,941 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-15 12:00:27,941 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 12:01:46,920 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 12:01:46,921 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-15 12:01:46,921 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:01:52,334 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:02:03,362 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 12:02:03,404 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:02:03,404 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:02:05,069 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 12:02:05,069 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:02:05,069 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:02:15,511 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:02:15,548 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:02:17,231 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-15 12:02:17,232 | server.py:147 | FL finished in 30.310825500000007
+myFlowerExperiment | INFO flwr 2023-10-15 12:02:17,232 | app.py:218 | app_fit: losses_distributed [(1, 0.7308695912361145), (2, 0.5356198151906332)]
+myFlowerExperiment | INFO flwr 2023-10-15 12:02:17,233 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-15 12:02:17,233 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-15 12:02:17,233 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-15 12:02:17,233 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-15 12:03:48,478 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-15 12:03:48,494 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-15 12:03:48,494 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-15 12:03:48,494 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 12:04:36,692 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-15 12:04:36,692 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-15 12:04:36,692 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:04:41,569 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:04:53,331 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 12:04:53,363 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:04:53,363 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:04:54,842 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-15 12:04:54,842 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:04:54,843 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:05:03,953 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:05:04,007 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-15 12:05:05,657 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-15 12:05:05,658 | server.py:147 | FL finished in 28.965167900000004
+myFlowerExperiment | INFO flwr 2023-10-15 12:05:05,658 | app.py:218 | app_fit: losses_distributed [(1, 0.8053275942802429), (2, 0.5324634810288748)]
+myFlowerExperiment | INFO flwr 2023-10-15 12:05:05,659 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-15 12:05:05,659 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-15 12:05:05,659 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-15 12:05:05,659 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-16 11:36:36,016 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-16 11:36:36,042 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-16 11:36:36,042 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-16 11:36:36,042 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-16 11:38:31,669 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-16 11:38:31,669 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-16 11:38:31,669 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:38:36,493 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:38:58,900 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-16 11:38:58,943 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:38:58,943 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:39:00,716 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-16 11:39:00,717 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:39:00,717 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:39:21,423 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:39:21,459 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:39:22,967 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-16 11:39:22,968 | server.py:147 | FL finished in 51.2980007
+myFlowerExperiment | INFO flwr 2023-10-16 11:39:22,968 | app.py:218 | app_fit: losses_distributed [(1, 0.6865000128746033), (2, 0.5596983333428701)]
+myFlowerExperiment | INFO flwr 2023-10-16 11:39:22,969 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-16 11:39:22,969 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-16 11:39:22,969 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-16 11:39:22,969 | app.py:222 | app_fit: metrics_centralized {}
+myFlowerExperiment | INFO flwr 2023-10-16 11:45:26,883 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=2, round_timeout=None)
+myFlowerExperiment | INFO flwr 2023-10-16 11:45:26,914 | app.py:168 | Flower ECE: gRPC server running (2 rounds), SSL is disabled
+myFlowerExperiment | INFO flwr 2023-10-16 11:45:26,914 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2023-10-16 11:45:26,914 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-16 11:45:34,526 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2023-10-16 11:45:34,526 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2023-10-16 11:45:34,526 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:45:38,887 | server.py:218 | fit_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:46:00,975 | server.py:232 | fit_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-16 11:46:01,024 | fedmedian.py:156 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:46:01,025 | server.py:168 | evaluate_round 1: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:46:03,443 | server.py:182 | evaluate_round 1 received 3 results and 0 failures
+myFlowerExperiment | WARNING flwr 2023-10-16 11:46:03,444 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:46:03,444 | server.py:218 | fit_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:46:24,153 | server.py:232 | fit_round 2 received 3 results and 0 failures
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:46:24,189 | server.py:168 | evaluate_round 2: strategy sampled 3 clients (out of 3)
+myFlowerExperiment | DEBUG flwr 2023-10-16 11:46:25,720 | server.py:182 | evaluate_round 2 received 3 results and 0 failures
+myFlowerExperiment | INFO flwr 2023-10-16 11:46:25,721 | server.py:147 | FL finished in 51.19097599999999
+myFlowerExperiment | INFO flwr 2023-10-16 11:46:25,722 | app.py:218 | app_fit: losses_distributed [(1, 0.7311895688374838), (2, 0.4605344533920288)]
+myFlowerExperiment | INFO flwr 2023-10-16 11:46:25,722 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2023-10-16 11:46:25,722 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2023-10-16 11:46:25,722 | app.py:221 | app_fit: losses_centralized []
+myFlowerExperiment | INFO flwr 2023-10-16 11:46:25,722 | app.py:222 | app_fit: metrics_centralized {}

@@ -1,0 +1,1 @@
+docker run --rm --name=fl-server-container -v "D:\BUET\2023-04\Distributed Systems\Project\Codes\ProjectTest\dataset":/app/dataset fl-server
